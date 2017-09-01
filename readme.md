@@ -1,4 +1,4 @@
-# sky-reveal
+# sky-window
 > Simple js lightweight module for window events based on RxJs - handles resize and scroll events.
 
 ## Dependencies
