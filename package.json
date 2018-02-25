@@ -1,0 +1,36 @@
+{
+	"name": "sky-window",
+	"version": "1.0.0",
+	"description": "Bundle of RXJs methods used by Skybrud.dk",
+	"main": "dist/skywindow.js",
+	"scripts": {
+		"build": "rimraf ./dist && webpack --config ./webpack.config.js"
+	},
+	"author": "Skybrud.dk",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skybrud/sky-window.git"
+	},
+	"dependencies": {
+		"rxjs": "5.0.2"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-transform-runtime": "^6.9.0",
+		"babel-preset-es2015": "^6.9.0",
+		"babel-preset-stage-2": "^6.11.0",
+		"babel-runtime": "^6.9.2",
+		"css-loader": "^0.28.10",
+		"rimraf": "^2.6.1",
+		"uglifyjs-webpack-plugin": "^1.2.2",
+		"vue": "^2.5.11",
+		"vue-html-loader": "^1.2.3",
+		"vue-loader": "^11.1.4",
+		"vue-style-loader": "^2.0.3",
+		"vue-template-compiler": "^2.5.11",
+		"webpack": "^3.11.0",
+		"webpack-merge": "^4.1.0"
+	}
+}
