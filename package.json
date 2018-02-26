@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/skybrud/sky-window.git"
   },
-  "peerDependencies": {
+  "dependencies": {
     "rxjs": "5.0.2"
   },
   "devDependencies": {
