@@ -1,11 +1,11 @@
 {
   "name": "sky-window",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bundle of RXJs methods used by Skybrud.dk",
   "main": "dist/skywindow.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js",
-	"dist": "yarn install && yarn run build"
+    "dist": "yarn install && yarn run build"
   },
   "author": "Skybrud.dk",
   "license": "MIT",
